@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SSR配置代码</title>
+    <style type="text/css">
+        body{
+            background-image: url(./SSR/ASUS.png);
+            background-size: 100% 100%;
+            height:100%;
+
+        }
+        html{
+            height:100%;
+
+        }
+    </style>
+</head>
+<body>
+<h1 style="color: red"> ssr主要配置</h1>
+wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
+chmod +x shadowsocksR.sh
+./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
+
