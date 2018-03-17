@@ -29,14 +29,14 @@
 <h1 style="color: red"> BBR主要配置</h1>
            <p style="color:white">wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh</p>
 <h1 style="color:green">锐速配置</h1>    
-   <p style="color:white"><b>注:锐速安装较繁琐，需匹配内核。</b></p>
+   <p style="color:red"><b>注:锐速安装较繁琐，需匹配内核。</b></p>
     <p style="color:white">wget -N --no-check-certificate https://github.com/91yun/serverspeeder/raw/master/serverspeeder.sh && bash serverspeeder.sh</p>
 <h3 style="color:pink">内核安装/更换</h3>
     <p style="color:blue"><em>CentOS 6</em></p>
-    <br style="color:white">rpm -ivh http://soft.91yun.org/ISO/Linux/CentOS/kernel/kernel-firmware-2.6.32-504.3.3.el6.noarch.rpm</br>
-    <br style="color:white">rpm -ivh http://soft.91yun.org/ISO/Linux/CentOS/kernel/kernel-2.6.32-504.3.3.el6.x86_64.rpm --force</br> 
+    <p style="color:white">rpm -ivh http://soft.91yun.org/ISO/Linux/CentOS/kernel/kernel-firmware-2.6.32-504.3.3.el6.noarch.rpm</p>
+    <p style="color:white">rpm -ivh http://soft.91yun.org/ISO/Linux/CentOS/kernel/kernel-2.6.32-504.3.3.el6.x86_64.rpm --force</p> 
     <p style="color:blue"><em>CentOS 7</em></p>
-    <br style="color:white">rpm -ivh http://soft.91yun.org/ISO/Linux/CentOS/kernel/kernel-3.10.0-229.1.2.el7.x86_64.rpm --force</br>
+    <p style="color:white">rpm -ivh http://soft.91yun.org/ISO/Linux/CentOS/kernel/kernel-3.10.0-229.1.2.el7.x86_64.rpm --force</p>
     <p>检查内核</p>
     <br>rpm -qa | grep kernel</br>
     <p>reboot!</p>
