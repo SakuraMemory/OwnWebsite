@@ -18,14 +18,17 @@
         h3{
             font-size:50px
             opacity:0.3
+        #ssr
+            font-size:20px
+            color:"white"
         }
     </style>
 </head>
 <body>
 <h2 style="color: red"> ssr主要配置</h2>
-           wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
-           <p>chmod +x shadowsocksR.sh</p>
-           <p>./shadowsocksR.sh 2>&1 | tee shadowsocksR.log</p>
+           <p id="ssr">wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh</p>
+           <p id="ssr">chmod +x shadowsocksR.sh</p>
+           <p id="ssr">./shadowsocksR.sh 2>&1 | tee shadowsocksR.log</p>
 
 <h1 style="color: red"> BBR主要配置</h1>
            wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
